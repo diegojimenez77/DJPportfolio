@@ -1,0 +1,62 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+header{
+    padding:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#2a607c;
+    color: #fff;
+    width: 100%;
+}
+header h1{
+    display: inline-block;
+    font-size: 48px;
+}
+header nav{
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+    float:right;
+}
+
+header nav ul li{
+    display:inline-block;
+    margin-left:25px;
+}
+.navbar {
+    display: flex;
+    flex-wrap:wrap;
+    background-color: #2a607c;
+    width: 100%;
+    width:flex;
+    min-height:flex;
+}
+.backimage {
+    height:200px;
+    width:100%;
+    background-image: url("../02-Homework/Images/photo-1525947088131-b701cd0f6dc3.avif");
+    background-size: cover;
+    background-position: center;
+    margin-bottom:25px;
+}
+.aboutme{
+    background-color: #9d21a8;
+    width: 100%;
+    width: flex;
+    min-height: flex;
+    display:inline-block
+}
+.c1{
+    background-color: #2a607c;
+    width: flex;
+    min-height: flex;
+}
+.c2{
+    background-color: #ffffff;
+    width: flex;
+    min-width: flex;
+    height: flex;
+}
