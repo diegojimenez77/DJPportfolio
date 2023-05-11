@@ -286,6 +286,34 @@ header nav ul li{
     background-position-y: 40px;
     background-position-x: 50px;
 }
+.fe65 {
+    background-color: #fff;
+    height: 15rem;
+    width: 30rem;
+    padding: 2rem;
+    border: 1px solid  #fff;
+    border-radius: 2rem;
+    margin: 2rem;
+    opacity: 0.6;
+    text-align: center;
+    line-height: 0.1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px #aaa;
+    color:blue;
+}
+
+.fe65:hover {
+    opacity: 1.0;
+    transform: rotate(-1deg) scale(1.1);
+}
+.fe65{
+    background-image: url(./Images/jQuery.PNG);
+    background-size:200px 200px;;
+    background-repeat: no-repeat;
+    background-position-y: 40px;
+    background-position-x: 50px;
+}
 .fe7 {
     background-color: #fff;
     height: 15rem;
