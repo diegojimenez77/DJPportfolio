@@ -2,6 +2,10 @@
     box-sizing:border-box;
     margin:0;
     padding:0;
+    
+}
+body{
+    background-color: #000000;
 }
 html {
     font-size: 62.5%;
@@ -9,7 +13,7 @@ html {
 header{
     padding:20px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color:#2a607c;
+    background-color:#000000;
     color: #fff;
     width: 100%;
 }
@@ -39,7 +43,7 @@ header nav ul li{
 .navbar {
     display: flex;
     flex-wrap:wrap;
-    background-color: #2a607c;
+    background-color: #000000;
     width: 100%;
     width:flex;
     min-height:flex;
@@ -48,7 +52,7 @@ header nav ul li{
 .backimage {
     height:200px;
     width:100%;
-    background-image: url("./Images/mockup-photos-5nUNdLueQio-unsplash.jpg");
+    background-image: url("https://images.pexels.com/photos/52538/motorcycle-motor-cylinder-technology-52538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
     background-position: center;
     margin-bottom:10px;
@@ -61,20 +65,29 @@ header nav ul li{
     display:flex;
     flex-wrap: wrap;
     width:100%;
-    background-color:#fff;
+    background-color:#000000;
     height:flex;
     justify-content: space-evenly;
     margin-top:10px;
     margin-bottom:10px;
+    align-items: center;
 }
 
 .ca{
-    width: 170px;
+    width: 150px;
     height: 150px;
     background-image: url(./Images/1129-0-4.jpg);
+    border-radius: 50%;
+    border: solid 2px rgb(71, 71, 72);
+    background-size:150px 150px;;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-position-x: 0px;
+
 }
 .cb{
-    background-color: #fff;
+    background-color: #000000;
+    color: white;
     width: 500px;
     min-height: flex;
     margin-right: 5px;
@@ -88,7 +101,7 @@ header nav ul li{
 .container-fe{
     width:100%;
     height: flex;
-    background-color:#2a607c;
+    background-color:rgb(0, 0, 0);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -99,7 +112,7 @@ header nav ul li{
 .container-be{
     width:100%;
     height: flex;
-    background-color:#2a607c;
+    background-color:black;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -110,7 +123,7 @@ header nav ul li{
 .container-fs{
     width:100%;
     height: flex;
-    background-color:#2a607c;
+    background-color:black;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -397,6 +410,119 @@ header nav ul li{
     background-repeat: no-repeat;
     background-position-y: 40px;
     background-position-x: 50px;
+}
+.fe11 {
+    background-color: #fff;
+    height: 15rem;
+    width: 30rem;
+    padding: 2rem;
+    border: 1px solid  #fff;
+    border-radius: 2rem;
+    margin: 2rem;
+    opacity: 0.6;
+    text-align: center;
+    line-height: 0.1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px #aaa;
+    color:blue;
+}
+
+.fe11:hover {
+    opacity: 1.0;
+    transform: rotate(-1deg) scale(1.1);
+}
+.fe11{
+    background-image: url(./Images/TodoMachine.PNG);
+    background-size:150px 150px;;
+    background-repeat: no-repeat;
+    background-position-y: 40px;
+    background-position-x: 75px;
+}
+.fe12 {
+    background-color: #fff;
+    height: 15rem;
+    width: 30rem;
+    padding: 2rem;
+    border: 1px solid  #fff;
+    border-radius: 2rem;
+    margin: 2rem;
+    opacity: 0.6;
+    text-align: center;
+    line-height: 0.1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px #aaa;
+    color:blue;
+}
+
+.fe12:hover {
+    opacity: 1.0;
+    transform: rotate(-1deg) scale(1.1);
+}
+.fe12{
+    background-image: url(./Images/ProfPortfolio.PNG);
+    background-size:150px 100px;;
+    background-repeat: no-repeat;
+    background-position-y: 40px;
+    background-position-x: 75px;
+}
+
+.fe13 {
+    background-color: #fff;
+    height: 15rem;
+    width: 30rem;
+    padding: 2rem;
+    border: 1px solid  #fff;
+    border-radius: 2rem;
+    margin: 2rem;
+    opacity: 0.6;
+    text-align: center;
+    line-height: 0.1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px #aaa;
+    color:blue;
+}
+
+.fe13:hover {
+    opacity: 1.0;
+    transform: rotate(-1deg) scale(1.1);
+}
+.fe13{
+    background-image: url(./Images/SocialApp.PNG);
+    background-size:150px 100px;;
+    background-repeat: no-repeat;
+    background-position-y: 40px;
+    background-position-x: 75px;
+}
+.fe14 {
+    background-color: #fff;
+    height: 15rem;
+    width: 30rem;
+    padding: 2rem;
+    border: 1px solid  #fff;
+    border-radius: 2rem;
+    margin: 2rem;
+    opacity: 0.6;
+    text-align: center;
+    line-height: 0.1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px #aaa;
+    color:blue;
+}
+
+.fe14:hover {
+    opacity: 1.0;
+    transform: rotate(-1deg) scale(1.1);
+}
+.fe14{
+    background-image: url(./Images/YourStore.PNG);
+    background-size:150px 100px;;
+    background-repeat: no-repeat;
+    background-position-y: 40px;
+    background-position-x: 75px;
 }
 .be1 {
     background-color: #fff;
@@ -735,7 +861,7 @@ header nav ul li{
     background-position-x: 50px;
 }
 .footer{
-    background-color: #fff;
+    background-color: #000000;
     width: flex;
     min-height: flex;
     margin-right: 5px;
